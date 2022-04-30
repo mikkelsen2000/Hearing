@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{5878e0b9-5cdf-4515-92b8-b3a13ebfe502}</formid>
+    <IntroducedVersion>7.0.0003</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form enablerelatedinformation="true" relatedInformationCollapsed="false" shownavigationbar="true" headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{06a2992a-9cc9-41a5-8f37-d2b2214fdde1}" IsUserDefined="0" labelid="{1c7d66ae-ccf5-4424-9a00-a05521088a44}" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="true" showbar="true" id="{51999b68-4b4c-439b-bb51-1b49edae03a9}" IsUserDefined="0" labelid="{e8d54f31-8511-4d0a-b415-8138cc8c6649}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{a9859c32-0cdc-41b5-8e7e-3eb173cab4a8}" showlabel="true" locklevel="0" visible="false" labelid="{812f3d1c-b492-4585-bccd-c4966cef34b7}" ordinalvalue="10001">
+                        <labels>
+                          <label description="Subject" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="2" id="{7f21a1bc-48b1-4423-860b-0efa5cfa7712}" labelid="{16422e22-eb6c-402f-8de2-e30b87b3bc3f}" ordinalvalue="10003" solutionaction="Modified">
+                        <labels>
+                          <label description="Case Type" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dae3e345-a070-4428-be90-ab0a926ca354}" showlabel="true" locklevel="1" visible="false" labelid="{058cb553-048d-4ff7-9ec1-5f648e2c81f5}" ordinalvalue="10004" solutionaction="Modified">
+                        <labels>
+                          <label description="Owner" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{82172fc9-a003-4203-87e6-73c8808ae942}" visible="false" labelid="{be6bd6cc-e7bc-4605-9620-a4a8c5ac4845}" ordinalvalue="20011" solutionaction="Modified">
+                        <labels>
+                          <label description="Customer" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e0d2da00-1940-41ec-a875-80032bfd503a}" showlabel="true" locklevel="0" visible="false" labelid="{a7da2c0f-c18b-4dfc-9187-3f8265ed5f89}" ordinalvalue="30007" solutionaction="Modified">
+                        <labels>
+                          <label description="Contract" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                      <cell id="{05ad2293-47dc-4119-a655-4a317a1a7838}" showlabel="true" locklevel="0" visible="false" labelid="{cb99aec8-a1be-4d66-8445-37c15b9e79ba}" ordinalvalue="20013" solutionaction="Modified">
+                        <labels>
+                          <label description="Contract Line" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{81b8f9ac-3858-44f4-aa3e-799d632d23ba}" ordinalvalue="20002" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{093b338c-4792-47de-9b82-e117a4eeeda2}" ordinalvalue="20005" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bdf93ee1-de3a-41b9-9914-86c304640691}" locklevel="0" colspan="2" rowspan="4" ordinalvalue="10006" solutionaction="Added">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{a175117c-8684-4331-942b-a2e495e900a3}" ordinalvalue="30008" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{18016e63-5c2e-4075-88f8-200c92cebcdb}" ordinalvalue="30009" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{083d3343-09a9-4514-9f41-65cc9fa8b734}" ordinalvalue="10010" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{b1b75dee-01f8-41d6-acc6-6f0a1ffbe19c}" ordinalvalue="10012" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{e4a0bdbe-1512-485d-af7c-2c05c515793c}">
+        <rows>
+          <row>
+            <cell id="{1444911f-6760-4c75-915e-60897f605d5a}" labelid="{00f9d162-817d-4b92-9ee2-6c6783eb1b59}" ordinalvalue="10000">
+              <labels>
+                <label description="Status" languagecode="1033" solutionaction="Added" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <events>
+        <event name="onload" application="true" active="false">
+          <InternalHandlers />
+        </event>
+      </events>
+      <header id="{6eea5e6a-e283-4bd8-a8af-f3926f864e57}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{4556dcbe-ea30-499e-a45a-cd2d15fd8b87}" showlabel="false" ordinalvalue="10000">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6ab1c11c-107c-4fe4-8912-e56749de45e5}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{74b914d5-72ca-4b48-a79c-20d4f4a4cc66}" showlabel="false" ordinalvalue="30002">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Web Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>
