@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>crec9_awarenessdashboardnew_e8f49</Name>
+  <AppVersion>2022-04-30T03:40:27Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.22022.23.0</CreatedByClientVersion>
+  <MinClientVersion>3.22022.23.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1503","primaryDeviceHeight":"749","sienaVersion":"a9965ecb-a810-41ff-af7a-7168e2590262","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.22022.23","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>Awareness Dashboard new</DisplayName>
+  <Description></Description>
+  <CommitMessage></CommitMessage>
+  <Publisher></Publisher>
+  <AuthorizationReferences>[{"resourceId":"powerbi"}]</AuthorizationReferences>
+  <ConnectionReferences>{"2a6563f7-4078-4bc8-8172-5390ce8f69ca":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png","dataSources":["ClickPowerAppsbuttontosendapushnotification"],"dependencies":["72f5050a-14a1-47a9-ad48-c83963f2f5cb"],"dependents":[],"parameterHints":{"workflowName":{"value":"9e99fc4d-215c-4211-a302-995fc38a103b"},"workflowEntityId":{"value":"73a64cb8-f5a6-ec11-b3fe-0022483dbc40"},"72f5050a-14a1-47a9-ad48-c83963f2f5cb":{"value":"shared_flowpush"}},"parameterHintsV2":{"workflowName":{"value":"9e99fc4d-215c-4211-a302-995fc38a103b"},"workflowEntityId":{"value":"73a64cb8-f5a6-ec11-b3fe-0022483dbc40"},"shared_flowpush":{"value":"72f5050a-14a1-47a9-ad48-c83963f2f5cb"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"72f5050a-14a1-47a9-ad48-c83963f2f5cb":{"id":"/providers/microsoft.powerapps/apis/shared_flowpush","displayName":"Notifications","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1574/1.0.1574.2780/flowpush/icon.png","dataSources":[],"dependencies":[],"dependents":["2a6563f7-4078-4bc8-8172-5390ce8f69ca"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"}}</ConnectionReferences>
+  <DatabaseReferences>{}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>2</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/crec9_awarenessdashboardnew_e8f49_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/crec9_awarenessdashboardnew_e8f49_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

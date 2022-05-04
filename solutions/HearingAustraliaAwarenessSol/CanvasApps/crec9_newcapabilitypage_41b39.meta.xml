@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>crec9_newcapabilitypage_41b39</Name>
+  <AppVersion>2022-04-30T03:40:30Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.22022.23.0</CreatedByClientVersion>
+  <MinClientVersion>3.22022.23.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1535","primaryDeviceHeight":"761","sienaVersion":"68f56e95-e7c7-4f0e-8923-9519e4773fb3","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.22022.23","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>New Capability page</DisplayName>
+  <Description></Description>
+  <CommitMessage></CommitMessage>
+  <Publisher></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"873645fc-e8c6-4d38-bf78-f323928d46d4":{"id":"/providers/microsoft.powerapps/apis/shared_microsoftspatialservices","displayName":"Spatial Services","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1573/1.0.1573.2770/microsoftspatialservices/icon.png","dataSources":["SpatialServices"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Premium"},"8360eb56-6ac4-4dd5-884a-074c6731dec8":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png","dataSources":["SendUpdatedCulturalInformation"],"dependencies":["e716c63e-7195-465d-aa5d-1449fe217ff9"],"dependents":[],"parameterHints":{"workflowName":{"value":"9fef32b1-3b9f-4e83-b8d3-0099ddc7e372"},"workflowEntityId":{"value":"36c4dad8-b4a8-ec11-983e-0022483cd421"},"e716c63e-7195-465d-aa5d-1449fe217ff9":{"value":"shared_flowpush"}},"parameterHintsV2":{"workflowName":{"value":"9fef32b1-3b9f-4e83-b8d3-0099ddc7e372"},"workflowEntityId":{"value":"36c4dad8-b4a8-ec11-983e-0022483cd421"},"shared_flowpush":{"value":"e716c63e-7195-465d-aa5d-1449fe217ff9"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"e716c63e-7195-465d-aa5d-1449fe217ff9":{"id":"/providers/microsoft.powerapps/apis/shared_flowpush","displayName":"Notifications","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1574/1.0.1574.2780/flowpush/icon.png","dataSources":[],"dependencies":[],"dependents":["8360eb56-6ac4-4dd5-884a-074c6731dec8"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"}}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{"Organizations":{"entitySetName":"organizations","logicalName":"organization"}}}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>2</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"componenttype":1,"logicalname":"organization"}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/crec9_newcapabilitypage_41b39_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/crec9_newcapabilitypage_41b39_DocumentUri.msapp</DocumentUri>
+</CanvasApp>
