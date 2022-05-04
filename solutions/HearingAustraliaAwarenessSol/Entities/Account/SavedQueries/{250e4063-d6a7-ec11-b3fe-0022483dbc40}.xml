@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{250e4063-d6a7-ec11-b3fe-0022483dbc40}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" icon="1" preview="1">
+        <row name="result" id="accountid">
+          <cell name="name" width="300" />
+          <cell name="telephone1" width="100" />
+          <cell name="address1_city" width="100" />
+          <cell name="primarycontactid" width="150" />
+          <cell name="accountprimarycontactidcontactcontactid.emailaddress1" width="150" disableSorting="1" />
+          <cell name="crec9_risk" width="100" />
+          <cell name="address1_latitude" width="100" />
+          <cell name="address1_longitude" width="100" />
+          <cell name="new_numberoflocations" width="100" />
+          <cell name="numberofemployees" width="100" />
+          <cell name="msdyn_taxexemptnumber" width="100" />
+          <cell name="crec9_culturalnotes" width="100" />
+          <cell name="crec9_communityculturalconsiderations" width="100" />
+          <cell name="crec9_culturalhistory" width="100" />
+          <cell name="address1_stateorprovince" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="account">
+          <attribute name="name" />
+          <attribute name="address1_city" />
+          <order attribute="name" descending="false" />
+          <attribute name="primarycontactid" />
+          <attribute name="telephone1" />
+          <attribute name="accountid" />
+          <filter type="and">
+            <condition attribute="name" operator="like" value="%community%" />
+            <condition attribute="name" operator="not-like" value="ZZZ%" />
+            <condition attribute="primarycontactid" operator="not-null" />
+          </filter>
+          <link-entity alias="accountprimarycontactidcontactcontactid" name="contact" from="contactid" to="primarycontactid" link-type="outer" visible="false">
+            <attribute name="emailaddress1" />
+          </link-entity>
+          <attribute name="crec9_risk" />
+          <attribute name="address1_latitude" />
+          <attribute name="address1_longitude" />
+          <attribute name="new_numberoflocations" />
+          <attribute name="numberofemployees" />
+          <attribute name="msdyn_taxexemptnumber" />
+          <attribute name="crec9_culturalnotes" />
+          <attribute name="crec9_communityculturalconsiderations" />
+          <attribute name="crec9_culturalhistory" />
+          <attribute name="address1_stateorprovince" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Community Locations" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
