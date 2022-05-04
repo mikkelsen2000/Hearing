@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>crec9_pippopippo_b83d9</Name>
+  <AppVersion>2022-04-30T03:40:31Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.22022.23.0</CreatedByClientVersion>
+  <MinClientVersion>3.22022.23.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1535","primaryDeviceHeight":"611","sienaVersion":"841a0d75-cfe0-45f4-a87d-9aff28516639","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.22022.23","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>pippopippo</DisplayName>
+  <Description></Description>
+  <CommitMessage></CommitMessage>
+  <Publisher></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"873645fc-e8c6-4d38-bf78-f323928d46d4":{"id":"/providers/microsoft.powerapps/apis/shared_microsoftspatialservices","displayName":"Spatial Services","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1573/1.0.1573.2770/microsoftspatialservices/icon.png","dataSources":["SpatialServices"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Premium"}}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{"Organizations":{"entitySetName":"organizations","logicalName":"organization"},"Communities":{"entitySetName":"accounts","logicalName":"account"}}}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>2</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"componenttype":1,"logicalname":"organization"},{"componenttype":1,"logicalname":"account"}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/crec9_pippopippo_b83d9_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/crec9_pippopippo_b83d9_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

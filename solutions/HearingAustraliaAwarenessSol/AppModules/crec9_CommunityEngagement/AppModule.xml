@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>crec9_CommunityEngagement</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001001}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001002}" />
+    <AppModuleComponent type="26" id="{8a62a523-459f-ec11-b3fe-002248addb80}" />
+    <AppModuleComponent type="26" id="{a14bc936-459f-ec11-b3fe-002248addb80}" />
+    <AppModuleComponent type="26" id="{3a36864a-459f-ec11-b3fe-002248addb80}" />
+    <AppModuleComponent type="26" id="{26e58e67-459f-ec11-b3fe-002248addb80}" />
+    <AppModuleComponent type="26" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
+    <AppModuleComponent type="60" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+    <AppModuleComponent type="60" id="{d1f511a8-1ead-e211-bb72-00155da9a201}" />
+    <AppModuleComponent type="62" schemaName="crec9_CommunityEngagement" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Community Engagement" languagecode="1033" />
+  </LocalizedNames>
+  <appelements>
+    <appelement uniquename="crec9_crec9_CommunityEngagement_canvasappid_crec9_awarenessdashboardnew_e8f49">
+      <canvasappid>
+        <name>crec9_awarenessdashboardnew_e8f49</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>crec9_crec9_CommunityEngagement_canvasappid_crec9_awarenessdashboardnew_e8f49</name>
+    </appelement>
+    <appelement uniquename="crec9_crec9_CommunityEngagement_canvasappid_crec9_communityawarenessdetailsmap_0160b">
+      <canvasappid>
+        <name>crec9_communityawarenessdetailsmap_0160b</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>crec9_crec9_CommunityEngagement_canvasappid_crec9_communityawarenessdetailsmap_0160b</name>
+    </appelement>
+    <appelement uniquename="crec9_crec9_CommunityEngagement_canvasappid_crec9_testcw_fdd80">
+      <canvasappid>
+        <name>crec9_testcw_fdd80</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>crec9_crec9_CommunityEngagement_canvasappid_crec9_testcw_fdd80</name>
+    </appelement>
+  </appelements>
+</AppModule>

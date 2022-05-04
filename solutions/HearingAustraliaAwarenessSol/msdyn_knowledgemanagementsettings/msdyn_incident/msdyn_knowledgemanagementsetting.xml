@@ -1,0 +1,12 @@
+<msdyn_knowledgemanagementsetting msdyn_uniquename="msdyn_incident">
+  <iscustomizable>1</iscustomizable>
+  <msdyn_actionlist>[-1,0,1,2,3,-1]</msdyn_actionlist>
+  <msdyn_autosuggestionfield>title</msdyn_autosuggestionfield>
+  <msdyn_defaultemailrecipient>customerid</msdyn_defaultemailrecipient>
+  <msdyn_entityname>incident</msdyn_entityname>
+  <msdyn_isautosuggestionsenabled>1</msdyn_isautosuggestionsenabled>
+  <msdyn_showcontextualactions>1</msdyn_showcontextualactions>
+  <msdyn_status>0</msdyn_status>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</msdyn_knowledgemanagementsetting>
